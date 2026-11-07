@@ -18,8 +18,8 @@ Kiểm tra GPU, phải in ra `True` và tên card:
 python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
 ```
 
-Weights YOLOPv2 (~150 MB) và `yolov8s.pt` tự tải ở lần chạy đầu. Nếu mạng chặn GitHub,
-tải thủ công tại https://github.com/CAIC-AD/YOLOPv2/releases/download/V0.0.1/yolopv2.pt
+Weights YOLOPv2 tải thủ công tại https://github.com/CAIC-AD/YOLOPv2/releases/download/V0.0.1/yolopv2.pt
+Weights YOLOv8s tải thủ công tại https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8s.pt
 rồi bỏ vào thư mục `weights/`.
 
 ## Chạy
